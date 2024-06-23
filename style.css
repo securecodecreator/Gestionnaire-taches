@@ -69,18 +69,6 @@ header h1 {
     animation: reflection 3s infinite;
 }
 
-@keyframes reflection {
-    0% {
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 234, 255, 0.75);
-    }
-    50% {
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 234, 255, 1);
-    }
-    100% {
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 234, 255, 0.75);
-    }
-}
-
 .task-manager {
     padding: 20px;
     border-radius: 15px;
@@ -142,7 +130,7 @@ button:hover {
     max-height: 300px;
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: #4CAF50 #333;
+    scrollbar-color: #00ccff #333;
 }
 
 .task-list::-webkit-scrollbar {
@@ -154,7 +142,7 @@ button:hover {
 }
 
 .task-list::-webkit-scrollbar-thumb {
-    background-color: #4CAF50;
+    background-color: #00ccff;
     border-radius: 10px;
     border: 2px solid #333;
 }
