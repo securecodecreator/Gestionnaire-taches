@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let y = (Math.random() * ((window.innerHeight - size * 2) - (size * 2)) + size * 2);
             let directionX = (Math.random() * 0.4) - 0.2;
             let directionY = (Math.random() * 0.4) - 0.2;
-            let color = '#4CAF50';
+            let color = '#00ccff';
 
             particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
         }
